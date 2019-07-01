@@ -14,23 +14,23 @@ pillow                    6.0.0
 pytorch安裝，可參考我的blogger文 : 
 https://mistyraining.blogspot.com/2019/05/ubuntuanacondatensorflow-gpu-keras.html
 
-訓練圖檔為36x36，字體大小從28~36，加上些許角度擺動及雜訊。
-字體：Harrington.ttf 網路下載
+訓練圖檔為36x36，字體大小從28~36，加上些許角度擺動及雜訊。   
+字體：Harrington.ttf 網路下載   
 
-cnnGpuTrain.py  訓練
-cnnGpuTest.py   測試訓練結果
-predOne.py      測試任一字元圖檔
+cnnGpuTrain.py  訓練   
+cnnGpuTest.py   測試訓練結果   
+predOne.py      測試任一字元圖檔    
 
-train.txt      訓練檔案列表與ID值  16688
-tets.txt       測試檔案列表與ID值  168
-train.tgz      訓練檔案目錄壓縮檔，訓練前須使用tar -zxvf train.tgz來解壓縮
-test.tgz       測試檔案目錄壓縮檔，測試前須使用tar -zxvf test.tgz來解壓縮
+train.txt      訓練檔案列表與ID值  16688    
+tets.txt       測試檔案列表與ID值  168    
+train.tgz      訓練檔案目錄壓縮檔，訓練前須使用tar -zxvf train.tgz來解壓縮   
+test.tgz       測試檔案目錄壓縮檔，測試前須使用tar -zxvf test.tgz來解壓縮    
 
-genTrainLetters36x36.py   產生訓練檔與測試檔
+genTrainLetters36x36.py   產生訓練檔與測試檔    
 
 CNN模型與訓練結果   
 
-GPU status =  True   
+GPU status =  True      
 Net(  
   (conv1): Sequential(    
     (0): Conv2d(3, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))   

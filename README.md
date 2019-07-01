@@ -3,6 +3,17 @@ pytorch cnn to training letters of ttf font
 使用一個特定的TTF字體，產生訓練用的字元，來做一個自製的OCR。
 希望可以幫助到有需要使用自己字體做訓練的人，請以此為參考，改成自己所需的模型。
 
+環境，ubuntu18.04, my env for reference
+pytorch                 >=  1.0.1           
+opencv                    3.4.2   
+scipy                     1.2.1   
+matplotlib                3.1.0 
+imageio                   2.5.0 
+pillow                    6.0.0
+
+pytorch安裝，可參考我的blogger文 : 
+https://mistyraining.blogspot.com/2019/05/ubuntuanacondatensorflow-gpu-keras.html
+
 訓練圖檔為36x36，字體大小從28~36，加上些許角度擺動及雜訊。
 字體：Harrington.ttf 網路下載
 
@@ -77,4 +88,6 @@ Train Loss: 0.000169, Acc: 0.993229
 
 測試結果    
 Test Loss: 0.000823, Acc: 0.988095   
+
+
 

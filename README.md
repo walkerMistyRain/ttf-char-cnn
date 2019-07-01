@@ -28,6 +28,9 @@ test.tgz       測試檔案目錄壓縮檔，測試前須使用tar -zxvf test.tg
 
 genTrainLetters36x36.py   產生訓練檔與測試檔    
 
+第一次訓練，需要先建一個model的目錄，以便存放產出的訓練模型檔   
+
+
 CNN模型與訓練結果   
 
 GPU status =  True      
